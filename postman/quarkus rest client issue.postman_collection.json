@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "35f67e38-abd9-4d5c-ad33-bc48737f6f57",
+		"name": "quarkus rest client issue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32322611"
+	},
+	"item": [
+		{
+			"name": "Get extension",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/extension/id/io.quarkus:quarkus-rest-client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"extension",
+						"id",
+						"io.quarkus:quarkus-rest-client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get extension async",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/extension/id-async/io.quarkus:quarkus-rest-client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"extension",
+						"id-async",
+						"io.quarkus:quarkus-rest-client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get extension uni",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/extension/id-uni/io.quarkus:quarkus-rest-client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"extension",
+						"id-uni",
+						"io.quarkus:quarkus-rest-client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get extension co",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/extension/id-co/io.quarkus:quarkus-rest-client",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"extension",
+						"id-co",
+						"io.quarkus:quarkus-rest-client"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
